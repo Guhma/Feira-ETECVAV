@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url('Comfortaa-Bold.ttf');
+}
+html{
+    scroll-behavior: smooth;
+}
+.navcontent{
+    font-family: Comfortaa, Bold;
+    color: white;
+    font-size: 150%;
+    margin: auto;
+}
+.navlogos{
+    position: left;
+    width: 20px;
+    margin-right: 1%;
+}
+.sec1{
+    background-color: dimgray;
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+.sec2{
+    background-color: darkred;
+}
+.ban{
+    position: relative;
+    padding-top: 5%;
+    left: 30%;
+    width: 30%;
+}
+.texto{
+    position: relative;
+    left: 20%;
+    padding-top: 5%;
+    color: white;
+    text-align: justify;
+    max-width: 25%;
+    float: left;
+}
+.menu{
+    color: black;
+    font-family: Convergence;
+    margin-left: 15%;
+    font-size: 120%;
+}
+.navlink{
+    color: white;
+    padding: .5rem 1rem;
+}
+@media (max-width: 850px){
+    .navcontent{
+        font-family: FreeMono, monospace;
+        color: white;
+        font-size: 150%;
+        max-width: 50px;
+    }
+    .navlogos{
+        position: left;
+        width: 20px;
+        margin-right: 1%;
+    }
+    .sec2{
+        font-size: 12px;
+    }
+}
+@media(min-width: 900px){
+    .car{
+        width: 70%;
+        margin: auto;
+    }
+}
