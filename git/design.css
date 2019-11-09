@@ -1,15 +1,10 @@
-@font-face {
-    font-family: Comfortaa;
-    src: url('Comfortaa-Bold.ttf');
-}
 html{
     scroll-behavior: smooth;
 }
 .navcontent{
-    font-family: Comfortaa, Bold;
+    font-family: Comfortaa;
     color: white;
     font-size: 150%;
-    margin: auto;
 }
 .navlogos{
     position: left;
@@ -23,51 +18,126 @@ html{
 }
 .sec2{
     background-color: darkred;
+    padding-bottom: 1%;
+    border-top: .05rem solid black;
 }
 .ban{
-    position: relative;
-    padding-top: 5%;
-    left: 30%;
-    width: 30%;
+    width: 90%;
+}
+.banm{
+    width: 90%;
+    margin: auto;
 }
 .texto{
-    position: relative;
-    left: 20%;
     padding-top: 5%;
     color: white;
     text-align: justify;
-    max-width: 25%;
-    float: left;
+    font-size: 100%;
 }
 .menu{
     color: black;
-    font-family: Convergence;
-    margin-left: 15%;
+    font-family: Comfortaa;
+    padding-left: 4%;
     font-size: 120%;
+}
+.titulo{
+    padding-top: 8%;
+    font-family: Comfortaa;
+    font-size: 200%;
 }
 .navlink{
     color: white;
     padding: .5rem 1rem;
 }
-@media (max-width: 850px){
+.final{
+    padding: 2.5rem 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid black;
+    background-color: dimgray;
+  }
+  .creditos{
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    background-image: url(IM/gustavo2.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .nomes{
+      padding-top: 1%;
+      padding-left: 3%;
+  }
+@media (max-width: 1025px){
     .navcontent{
         font-family: FreeMono, monospace;
         color: white;
         font-size: 150%;
         max-width: 50px;
+        margin: auto;
+
     }
     .navlogos{
         position: left;
         width: 20px;
         margin-right: 1%;
+        display: none;
     }
-    .sec2{
-        font-size: 12px;
+    .navlogosm{
+        position: left;
+        width: 20px;
+        margin-right: 1%;
     }
+    .titulo{
+        padding-top: 8%;
+        font-family: Comfortaa;
+        font-size: 200%;
+        padding-top: 3%;
+    }
+}
+
+@media(min-width: 1024px){
+    .banm{
+        display: none;
+    }
+}
+
+.menu{
+    color: black;
+    font-family: Comfortaa;
+    margin-left: 15%;
+    font-size: 120%;
 }
 @media(min-width: 900px){
     .car{
         width: 70%;
         margin: auto;
+    }
+}
+@media(max-width: 1024px){
+    .ban{
+        display: none;
+    }
+    .imagemi{
+        display: none;
+    }
+}
+@media(max-width: 360px){
+    .titulo{
+        padding-top: 10%;
+        font-family: Comfortaa;
+        font-size: 250%;
+        padding-top: 20%;
+    }
+    .texto{
+        padding-top: 5%;
+        color: white;
+        font-size: 50%;
+    }
+    .ban{
+        display: none;
     }
 }
