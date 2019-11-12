@@ -34,6 +34,11 @@ html{
     text-align: justify;
     font-size: 100%;
 }
+.textofeira{
+    color: black;
+    text-align: justify;
+    font-size: 100%;
+}
 .menu{
     color: black;
     font-family: Comfortaa;
@@ -71,10 +76,18 @@ html{
       padding-top: 1%;
       padding-left: 3%;
   }
+ .size{
+     width: 300px;
+     height: 400px;
+ }
+ .video{
+    width:560px;
+    height:315px;
+ }
 @media (max-width: 1025px){
     .navcontent{
         font-family: FreeMono, monospace;
-        color: white;
+        color: rgb(128, 128, 128);
         font-size: 150%;
         max-width: 50px;
         margin: auto;
@@ -97,6 +110,7 @@ html{
         font-size: 200%;
         padding-top: 3%;
     }
+    
 }
 
 @media(min-width: 1024px){
@@ -124,6 +138,7 @@ html{
     .imagemi{
         display: none;
     }
+    
 }
 @media(max-width: 360px){
     .titulo{
@@ -137,7 +152,23 @@ html{
         color: white;
         font-size: 50%;
     }
+
+    .textofeira{
+      padding-top: 5%;
+      color: black;
+      font-size: 50%;
+    }
+
     .ban{
         display: none;
     }
 }
+
+@media(max-width: 700px){
+    .video{
+        width:373px;
+        height:210px;
+     }
+}
+
+ 
