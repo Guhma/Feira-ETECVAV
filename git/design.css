@@ -84,6 +84,8 @@ html{
     width:560px;
     height:315px;
  }
+
+
 @media (max-width: 1025px){
     .navcontent{
         font-family: FreeMono, monospace;
@@ -104,19 +106,15 @@ html{
         width: 20px;
         margin-right: 1%;
     }
-    .titulo{
-        padding-top: 8%;
-        font-family: Comfortaa;
-        font-size: 200%;
-        padding-top: 3%;
-    }
     
 }
+
 
 @media(min-width: 1024px){
     .banm{
         display: none;
     }
+    
 }
 
 .menu{
@@ -125,12 +123,16 @@ html{
     margin-left: 15%;
     font-size: 120%;
 }
+
+
 @media(min-width: 900px){
     .car{
         width: 70%;
         margin: auto;
     }
 }
+
+
 @media(max-width: 1024px){
     .ban{
         display: none;
@@ -138,8 +140,16 @@ html{
     .imagemi{
         display: none;
     }
+    .titulo{
+        padding-top: 8%;
+        font-family: Comfortaa;
+        font-size: 200%;
+        padding-top: 10%;
+    }
     
 }
+
+
 @media(max-width: 360px){
     .titulo{
         padding-top: 10%;
@@ -164,11 +174,26 @@ html{
     }
 }
 
+
 @media(max-width: 700px){
     .video{
         width:373px;
         height:210px;
      }
+     .titulo{
+        padding-top: 10%;
+        font-family: Comfortaa;
+        font-size: 250%;
+        padding-top: 20%;
+    }
 }
 
- 
+
+@media (min-width: 700.1px) and (max-width: 1023.98px) {
+    .titulo{
+        padding-top: 10%;
+        font-family: Comfortaa;
+        font-size: 250%;
+        padding-top: 15%;
+    }
+}
