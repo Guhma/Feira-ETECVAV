@@ -1,0 +1,2 @@
+# Feira-ETECVAV
+O site da feira de profissões da ETECVAV é um projeto acadêmico. O site demonstra como é a Feria de Profissões que ocorre anualmente na Escola Técnica Estadual Vasco Antônio Venchiarutti, onde os alunos e professores demonstram cada curso técnico que a escola oferece para pessoas interessadas em ingressar no colégio técnico. Foi utilizado HTML5, CSS3 e o Framework Bootstrap4 ao longo do desenvolvimento do site.
